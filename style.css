@@ -8,9 +8,20 @@
     
 }
 
-h1, h2, p {
+.center{
+    
     text-align: center;
-
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+h1, h2{
+    text-align: center;
+}
+hr{
+    height:2px;
+    background-color:brown;
+    border-color: brown;
 }
 .main {
 
@@ -24,7 +35,58 @@ h1, h2, p {
     max-width: 500px;
 }
 h1{ 
-    font-family: "Brush Script MT",sans-serif;}
-li{
+    font-family: "Brush Script MT",sans-serif;
+    font-size: 35px;
+    
+}
+h2{
+    font-size: 25px;
+    color:blueviolet;
+}
+h4{
+font-weight: 700;
+
+}
+
+li,p{
     padding-top: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+#description{
+    font-style: italic;
+    text-align: center;
+}
+.toppad{
+    padding-top:10%;
+}
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.button{
+    width:160px;
+    height: 70px;
+    background-color: brown;
+    border:none;
+    cursor:pointer;
+}
+a {
+    text-decoration:none;
+    font-size: 16px;
+    
+    color:beige;
+    
+}
+a:hover{
+    color: brown;
+    transition:0.3s ease;
+
+}
+button:hover{
+    background-color: black;
+    transition:0.3s ease;
+
 }
