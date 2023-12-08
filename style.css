@@ -32,7 +32,7 @@ hr{
     padding-left: 15px;
     padding-top: 20px;
     padding-bottom:20px;
-    max-width: 500px;
+    max-width: auto;
 }
 h1{ 
     font-family: "Brush Script MT",sans-serif;
